@@ -1,13 +1,34 @@
+import { useState } from 'react'
+import { HiMenu, HiX } from 'react-icons/hi'
+import { FaCode } from 'react-icons/fa'
+
 export default function Header(){
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
   return (
-    <header className="container" style={{padding:'16px 0', display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-      <a href="/"><strong>Rudransh Yerekar</strong></a>
-      <nav style={{display:'flex', gap:16}}>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <header className="header">
+      <div className="header-container">
+        <a href="/" className="logo no-underline">
+          <FaCode className="logo-icon" />
+          <span className="logo-text">Rudransh Yerekar</span>
+          <span className="logo-dot"></span>
+        </a>
+
+        <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
+          <a href="#projects" className="nav-link" onClick={() => setIsMenuOpen(false)}>Projects</a>
+          <a href="#skills" className="nav-link" onClick={() => setIsMenuOpen(false)}>Skills</a>
+          <a href="#about" className="nav-link" onClick={() => setIsMenuOpen(false)}>About</a>
+          <a href="#contact" className="nav-link" onClick={() => setIsMenuOpen(false)}>Contact</a>
+        </nav>
+
+        <button 
+          className="mobile-menu-toggle"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle menu"
+        >
+          {isMenuOpen ? <HiX /> : <HiMenu />}
+        </button>
+      </div>
     </header>
   )
 }
