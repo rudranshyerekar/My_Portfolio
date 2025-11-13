@@ -1,50 +1,60 @@
 // src/components/Hero.jsx
+import { FaEye, FaDownload, FaHandPeace } from 'react-icons/fa'
+import { HiSparkles } from 'react-icons/hi'
+
 export default function Hero(){
   return (
     <section className="hero">
-      <div className="hero-content">
+      <div className="hero-content" data-aos="fade-right">
         <div className="hero-badge">
-          <span>👋</span>
+          <FaHandPeace className="badge-icon" />
           <span>Available for work</span>
+          <HiSparkles className="sparkle-icon" />
         </div>
         
-        <h1 className="hero-title">
+        <h1 className="hero-title" data-aos="fade-up" data-aos-delay="200">
           Hi, I'm <span className="highlight">Rudransh Yerekar</span>
           <br />
           Software Developer
         </h1>
         
-        <p className="hero-description">
+        <p className="hero-description" data-aos="fade-up" data-aos-delay="400">
           I build fast, accessible web applications with React and modern technologies. 
           Passionate about creating exceptional user experiences and clean, maintainable code.
         </p>
         
-        <div className="hero-actions">
+        <div className="hero-actions" data-aos="fade-up" data-aos-delay="600">
           <a href="#projects" className="no-underline">
-            <button>View Projects</button>
+            <button>
+              <FaEye />
+              View Projects
+            </button>
           </a>
           <a href="/data/Rudransh Yerekar.pdf" target="_blank" rel="noreferrer" className="no-underline">
-            <button className="secondary">Download Resume</button>
+            <button className="secondary">
+              <FaDownload />
+              Download Resume
+            </button>
           </a>
         </div>
         
-        <div className="hero-stats">
+        <div className="hero-stats" data-aos="fade-up" data-aos-delay="800">
           <div className="stat">
-            <span className="stat-number">5+</span>
-            <span className="stat-label">Month Experience</span>
+            <span className="stat-number">6+</span>
+            <span className="stat-label">Months Experience</span>
           </div>
           <div className="stat">
             <span className="stat-number">10+</span>
             <span className="stat-label">Projects Built</span>
           </div>
           <div className="stat">
-            <span className="stat-number">5+</span>
+            <span className="stat-number">8+</span>
             <span className="stat-label">Technologies</span>
           </div>
         </div>
       </div>
       
-      <div className="hero-visual">
+      <div className="hero-visual" data-aos="fade-left" data-aos-delay="400">
         <div className="floating-card">
           <div className="code-snippet">
             <div className="code-header">
