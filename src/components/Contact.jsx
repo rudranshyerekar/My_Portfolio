@@ -1,5 +1,11 @@
 // src/components/Contact.jsx
-import { FaEnvelope, FaLinkedin, FaGithub, FaPaperPlane } from 'react-icons/fa'
+import { 
+  FaEnvelope, 
+  FaLinkedin, 
+  FaGithub, 
+  FaPaperPlane,
+  FaWhatsapp 
+} from 'react-icons/fa'
 
 export default function Contact(){
   return (
@@ -15,35 +21,71 @@ export default function Contact(){
           </div>
           
           <div className="contact-info">
+            
+            {/* Email */}
             <div className="contact-item" data-aos="fade-up" data-aos-delay="200">
               <div className="contact-icon">
                 <FaEnvelope />
               </div>
               <div className="contact-details">
                 <h4>Email</h4>
-                <a href="mailto:rudranshyerekar45@gmail.com">rudranshyerekar45@gmail.com</a>
+                <a href="mailto:rudranshyerekar45@gmail.com">
+                  rudranshyerekar45@gmail.com
+                </a>
               </div>
             </div>
-            
+
+            {/* LinkedIn */}
             <div className="contact-item" data-aos="fade-up" data-aos-delay="400">
               <div className="contact-icon">
                 <FaLinkedin />
               </div>
               <div className="contact-details">
                 <h4>LinkedIn</h4>
-                <a href="www.linkedin.com/in/rudransh-yerekar-0ba16a216" target="_blank" rel="noreferrer">Connect with me</a>
+                <a 
+                  href="https://www.linkedin.com/in/rudransh-yerekar-0ba16a216" 
+                  target="_blank" 
+                  rel="noreferrer"
+                >
+                  Connect with me
+                </a>
               </div>
             </div>
-            
+
+            {/* GitHub */}
             <div className="contact-item" data-aos="fade-up" data-aos-delay="600">
               <div className="contact-icon">
                 <FaGithub />
               </div>
               <div className="contact-details">
                 <h4>GitHub</h4>
-                <a href="https://github.com/rudranshyerekar" target="_blank" rel="noreferrer">View my code</a>
+                <a 
+                  href="https://github.com/rudranshyerekar" 
+                  target="_blank" 
+                  rel="noreferrer"
+                >
+                  View my code
+                </a>
               </div>
             </div>
+
+            {/* WhatsApp */}
+            <div className="contact-item" data-aos="fade-up" data-aos-delay="800">
+              <div className="contact-icon">
+                <FaWhatsapp />
+              </div>
+              <div className="contact-details">
+                <h4>WhatsApp</h4>
+                <a 
+                  href="https://wa.me/9422183258" 
+                  target="_blank" 
+                  rel="noreferrer"
+                >
+                  Chat on WhatsApp
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
         
