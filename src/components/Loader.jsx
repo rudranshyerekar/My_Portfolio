@@ -36,12 +36,6 @@ export default function Loader({ className = '', progress = 0, onSkip }) {
             <span className="dot"></span>
           </div>
         </div>
-
-        {progress > 50 && onSkip && (
-          <button className="skip-loader" onClick={onSkip}>
-            Skip Loading
-          </button>
-        )}
       </div>
 
       <div className="loader-background">
