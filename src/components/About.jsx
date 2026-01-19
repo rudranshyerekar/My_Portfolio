@@ -12,21 +12,24 @@ export default function About() {
 
           <div className="about-text">
             <p data-aos="fade-up" data-aos-delay="200">
-              I'm a passionate software developer with a love for creating beautiful,
-              functional web applications. With expertise in React and modern JavaScript,
-              I enjoy turning complex problems into simple, elegant solutions.
+              I'm a Java Full-Stack Developer with hands-on experience building scalable web
+              applications using Java, Spring Boot, React, SQL, and MongoDB. Currently working
+              at RBrickks Technology in Pune, I handle full-stack development from responsive
+              UIs to robust backend APIs.
             </p>
 
             <p data-aos="fade-up" data-aos-delay="400">
-              When I'm not coding, you can find me exploring new technologies,
-              contributing to open source projects, or sharing knowledge with the
-              developer community. I believe in writing clean, maintainable code
-              and creating exceptional user experiences.
+              With a B.Tech in Electronics & Telecommunication Engineering from GH Raisoni
+              College (8.35 CGPA), I've developed strong problem-solving skills and technical
+              expertise. My experience includes reducing application load times by 40%,
+              increasing user engagement by 25%, and improving deployment stability through
+              Docker containerization.
             </p>
 
             <p data-aos="fade-up" data-aos-delay="600">
-              Currently, I'm focused on building scalable web applications and
-              expanding my knowledge in cloud technologies and DevOps practices.
+              I'm passionate about writing clean, maintainable code and creating exceptional
+              user experiences. My focus is on developing end-to-end features that combine
+              elegant frontend design with powerful backend architecture.
             </p>
           </div>
 

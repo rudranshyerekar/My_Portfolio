@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { FaCode } from 'react-icons/fa'
 
-export default function Header(){
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
@@ -15,13 +15,14 @@ export default function Header(){
         </a>
 
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
+          <a href="#about" className="nav-link" onClick={() => setIsMenuOpen(false)}>About</a>
+          <a href="#experience" className="nav-link" onClick={() => setIsMenuOpen(false)}>Experience</a>
           <a href="#projects" className="nav-link" onClick={() => setIsMenuOpen(false)}>Projects</a>
           <a href="#skills" className="nav-link" onClick={() => setIsMenuOpen(false)}>Skills</a>
-          <a href="#about" className="nav-link" onClick={() => setIsMenuOpen(false)}>About</a>
           <a href="#contact" className="nav-link" onClick={() => setIsMenuOpen(false)}>Contact</a>
         </nav>
 
-        <button 
+        <button
           className="mobile-menu-toggle"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"

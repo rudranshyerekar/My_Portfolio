@@ -10,7 +10,7 @@ import NotFound from './pages/Not Found.jsx'
 import Loader from './components/Loader.jsx'
 import { useLoader } from './hooks/useLoader.js'
 
-export default function App(){
+export default function App() {
   const { loading, fadeOut, progress, skipLoading } = useLoader(2500)
 
   useEffect(() => {
@@ -27,9 +27,9 @@ export default function App(){
 
   if (loading) {
     return (
-      <Loader 
-        className={fadeOut ? 'fade-out' : ''} 
-        progress={progress} 
+      <Loader
+        className={fadeOut ? 'fade-out' : ''}
+        progress={progress}
         onSkip={skipLoading}
       />
     )
