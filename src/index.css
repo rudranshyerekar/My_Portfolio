@@ -963,11 +963,35 @@ Section */
   .footer-content {
     flex-direction: column;
     text-align: center;
-    gap: var(--space-md);
+    gap: var(--space-lg);
+    padding: var(--space-xl) var(--space-md);
   }
 
   .footer-links {
-    gap: var(--space-md);
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-sm);
+  }
+
+  .footer-link {
+    padding: var(--space-sm);
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-sm);
+    width: 100%;
+  }
+
+  .footer-link {
+    justify-content: center;
+    padding: var(--space-md);
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-md);
   }
 }
 
