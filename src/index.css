@@ -1000,6 +1000,8 @@ Section */
   max-width: 1200px;
   margin: 0 auto;
   padding: var(--space-3xl) var(--space-lg);
+  scroll-margin-top: 80px;
+  /* Offset for sticky header */
 }
 
 .section-header {
