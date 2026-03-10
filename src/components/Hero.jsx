@@ -70,7 +70,7 @@ export default function Hero() {
               <br />
               &nbsp;&nbsp;<span className="code-property">name</span>: <span className="code-string">'Rudransh'</span>,
               <br />
-              &nbsp;&nbsp;<span className="code-property">skills</span>: [<span className="code-string">'React'</span>, <span className="code-string">'JS'</span>],
+              &nbsp;&nbsp;<span className="code-property">skills</span>: [<span className="code-string">'Java'</span>, <span className="code-string">'Spring Boot'</span>],
               <br />
               &nbsp;&nbsp;<span className="code-property">passion</span>: <span className="code-string">'coding'</span>
               <br />
