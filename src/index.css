@@ -361,7 +361,7 @@ textarea::placeholder {
 }
 
 .fade-in-up {
-  animation: fadeInUp 0.6s ease forwards;
+  animation: fadeInUp 0.45s ease forwards;
 }
 
 /* Light mode intentionally disabled — single unified dark theme */
@@ -432,7 +432,7 @@ textarea::placeholder {
   border-radius: 50%;
   background: var(--primary);
   box-shadow: var(--glow-red-sm);
-  animation: pulse 2s infinite;
+  animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
@@ -507,7 +507,7 @@ Section */
 }
 
 .hero-content {
-  animation: fadeInUp 0.8s ease forwards;
+  animation: fadeInUp 0.6s ease forwards;
 }
 
 .hero-badge {
@@ -536,7 +536,7 @@ Section */
   width: 100%;
   height: 100%;
   background: linear-gradient(90deg, transparent, rgba(239, 68, 68, 0.15), transparent);
-  animation: shimmer 2s infinite;
+  animation: shimmer 1.5s infinite;
 }
 
 @keyframes shimmer {
@@ -612,13 +612,13 @@ Section */
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeInUp 0.8s ease 0.2s forwards;
+  animation: fadeInUp 0.6s ease 0.15s forwards;
   opacity: 0;
 }
 
 .floating-card {
   position: relative;
-  animation: float 6s ease-in-out infinite;
+  animation: float 4.5s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -1180,7 +1180,7 @@ kills Section */
   height: 12px;
   background: var(--gray-600);
   border-radius: 6px;
-  animation: shimmer 2s ease-in-out infinite;
+  animation: shimmer 1.5s ease-in-out infinite;
 }
 
 .code-line:nth-child(1) {
@@ -1506,7 +1506,7 @@ ntact Section */
   position: absolute;
   border-radius: 50%;
   opacity: 0.6;
-  animation: float 6s ease-in-out infinite;
+  animation: float 4.5s ease-in-out infinite;
 }
 
 .shape-1 {
@@ -1659,7 +1659,7 @@ t Icons and Enhanced Styles */
 
 .sparkle-icon {
   color: var(--accent);
-  animation: sparkle 2s ease-in-out infinite;
+  animation: sparkle 1.5s ease-in-out infinite;
 }
 
 @keyframes sparkle {
@@ -1742,7 +1742,7 @@ t Icons and Enhanced Styles */
 .heart-icon {
   color: #ef4444;
   font-size: 0.9rem;
-  animation: heartbeat 2s ease-in-out infinite;
+  animation: heartbeat 1.5s ease-in-out infinite;
 }
 
 @keyframes heartbeat {
@@ -1881,7 +1881,7 @@ r Styles */
   font-size: 3rem;
   color: var(--primary);
   z-index: 2;
-  animation: pulse-main 2s ease-in-out infinite;
+  animation: pulse-main 1.5s ease-in-out infinite;
 }
 
 .loader-orbit {
@@ -1890,7 +1890,7 @@ r Styles */
   height: 100%;
   border: 2px solid rgba(239, 68, 68, 0.25);
   border-radius: 50%;
-  animation: rotate 3s linear infinite;
+  animation: rotate 2.2s linear infinite;
 }
 
 .orbit-icon {
@@ -1903,7 +1903,7 @@ r Styles */
   left: 50%;
   transform: translateX(-50%);
   color: #61dafb;
-  animation: orbit-react 3s linear infinite;
+  animation: orbit-react 2.2s linear infinite;
 }
 
 .sparkle-icon-1 {
@@ -1911,7 +1911,7 @@ r Styles */
   right: -6px;
   transform: translateY(-50%);
   color: var(--accent);
-  animation: orbit-sparkle-1 3s linear infinite;
+  animation: orbit-sparkle-1 2.2s linear infinite;
 }
 
 .sparkle-icon-2 {
@@ -1919,7 +1919,7 @@ r Styles */
   left: 50%;
   transform: translateX(-50%);
   color: var(--secondary);
-  animation: orbit-sparkle-2 3s linear infinite;
+  animation: orbit-sparkle-2 2.2s linear infinite;
 }
 
 .loader-text {
@@ -1995,7 +1995,7 @@ r Styles */
   height: 8px;
   border-radius: 50%;
   background: var(--gray-500);
-  animation: dot-bounce 1.4s ease-in-out infinite both;
+  animation: dot-bounce 1s ease-in-out infinite both;
 }
 
 .dot:nth-child(1) {
@@ -2024,7 +2024,7 @@ r Styles */
   position: absolute;
   border-radius: 50%;
   opacity: 0.1;
-  animation: float-bg 6s ease-in-out infinite;
+  animation: float-bg 4.5s ease-in-out infinite;
 }
 
 .shape-1 {

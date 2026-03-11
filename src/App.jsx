@@ -17,7 +17,7 @@ export default function App() {
     // Initialize AOS after loading is complete
     if (!loading) {
       AOS.init({
-        duration: 800,
+        duration: 600,
         easing: 'ease-in-out',
         once: true,
         offset: 100
