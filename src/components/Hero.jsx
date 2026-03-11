@@ -6,11 +6,11 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-content" data-aos="fade-right">
-        <div className="hero-badge">
+        {/* <div className="hero-badge">
           <FaHandPeace className="badge-icon" />
           <span>Available for work</span>
           <HiSparkles className="sparkle-icon" />
-        </div>
+        </div> */}
 
         <h1 className="hero-title" data-aos="fade-up" data-aos-delay="200">
           Hi, I'm <span className="highlight">Rudransh Yerekar</span>
