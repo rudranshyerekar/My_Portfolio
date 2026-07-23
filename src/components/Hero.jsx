@@ -15,11 +15,11 @@ export default function Hero() {
         <h1 className="hero-title" data-aos="fade-up" data-aos-delay="200">
           Hi, I'm <span className="highlight">Rudransh Yerekar</span>
           <br />
-          Java Full-Stack Developer
+          Full Stack Developer
         </h1>
 
         <p className="hero-description" data-aos="fade-up" data-aos-delay="400">
-          Full-Stack Developer with hands-on experience building scalable web applications using Java, Spring Boot, React, SQL, and MongoDB.
+          Full Stack Developer with hands-on experience building scalable web applications using Python, Java, Spring Boot, React, SQL, and MongoDB.
           Proficient in developing end-to-end features including frontend UI, backend APIs, and database design with a focus on clean, maintainable code.
         </p>
 
@@ -70,7 +70,7 @@ export default function Hero() {
               <br />
               &nbsp;&nbsp;<span className="code-property">name</span>: <span className="code-string">'Rudransh'</span>,
               <br />
-              &nbsp;&nbsp;<span className="code-property">skills</span>: [<span className="code-string">'Java'</span>, <span className="code-string">'Spring Boot'</span>],
+              &nbsp;&nbsp;<span className="code-property">skills</span>: [<span className="code-string">'Python'</span>, <span className="code-string">'Java'</span>, <span className="code-string">'Spring Boot'</span>],
               <br />
               &nbsp;&nbsp;<span className="code-property">passion</span>: <span className="code-string">'coding'</span>
               <br />

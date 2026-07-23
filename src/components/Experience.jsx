@@ -7,9 +7,9 @@ export default function Experience() {
             title: "Junior Software Developer",
             company: "RBrickks Technology",
             location: "Pune",
-            period: "Oct 2025 – Present",
+            period: "Oct 2025 – April 2026",
             type: "Full-Time",
-            current: true,
+            current: false,
             responsibilities: [
                 "Worked as a Full-Stack Developer handling frontend, backend, and database development",
                 "Built responsive UIs using React.js, HTML, CSS, and designed screens in Figma",

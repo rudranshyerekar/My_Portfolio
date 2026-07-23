@@ -4,16 +4,19 @@
   /* ── Gaming / Tournament Palette (sos2-live inspired) ── */
 
   /* Accent Colors */
-  --primary:      #EF4444;   /* vibrant red  */
-  --primary-dark: #DC2626;   /* deep red     */
-  --secondary:    #FACC15;   /* gold / yellow */
-  --accent:       #EF4444;
-  --success:      #22C55E;
-  --warning:      #FACC15;
-  --error:        #EF4444;
+  --primary: #EF4444;
+  /* vibrant red  */
+  --primary-dark: #DC2626;
+  /* deep red     */
+  --secondary: #FACC15;
+  /* gold / yellow */
+  --accent: #EF4444;
+  --success: #22C55E;
+  --warning: #FACC15;
+  --error: #EF4444;
 
   /* ── Neutral scale ── */
-  --gray-50:  #1a1a1a;
+  --gray-50: #1a1a1a;
   --gray-100: #1f1f1f;
   --gray-200: #252525;
   --gray-300: #2e2e2e;
@@ -25,19 +28,24 @@
   --gray-900: #000000;
 
   /* ── Backgrounds ── */
-  --bg-primary:   #000000;   /* true black   */
-  --bg-secondary: #0D0D0D;   /* dark panel   */
-  --bg-tertiary:  #141414;   /* card surface */
+  --bg-primary: #000000;
+  /* true black   */
+  --bg-secondary: #0D0D0D;
+  /* dark panel   */
+  --bg-tertiary: #141414;
+  /* card surface */
 
   /* ── Text ── */
-  --text-primary:   #FFFFFF;
-  --text-secondary: #9CA3AF; /* gray-400     */
-  --text-muted:     #6B7280; /* gray-500     */
+  --text-primary: #FFFFFF;
+  --text-secondary: #9CA3AF;
+  /* gray-400     */
+  --text-muted: #6B7280;
+  /* gray-500     */
 
   /* ── Glow / Neon effects ── */
-  --glow-red:    0 0 20px rgba(239, 68, 68, 0.6), 0 0 40px rgba(239, 68, 68, 0.3);
+  --glow-red: 0 0 20px rgba(239, 68, 68, 0.6), 0 0 40px rgba(239, 68, 68, 0.3);
   --glow-red-sm: 0 0 10px rgba(239, 68, 68, 0.5);
-  --glow-gold:   0 0 20px rgba(250, 204, 21, 0.5), 0 0 40px rgba(250, 204, 21, 0.25);
+  --glow-gold: 0 0 20px rgba(250, 204, 21, 0.5), 0 0 40px rgba(250, 204, 21, 0.25);
 
   /* ── Spacing ── */
   --space-xs: 0.25rem;
@@ -60,7 +68,7 @@
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.7), 0 4px 6px -4px rgb(0 0 0 / 0.6);
   --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.8), 0 8px 10px -6px rgb(0 0 0 / 0.7);
 
-  --font-body:    'Rajdhani', system-ui, sans-serif;
+  --font-body: 'Rajdhani', system-ui, sans-serif;
   --font-heading: 'Orbitron', system-ui, sans-serif;
 
   font-family: var(--font-body);

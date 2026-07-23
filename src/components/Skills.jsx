@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fa'
 import {
   SiTypescript, SiTailwindcss, SiExpress, SiGraphql,
-  SiWebpack, SiVite
+  SiWebpack, SiVite, SiPython
 } from 'react-icons/si'
 
 export default function Skills() {
@@ -25,6 +25,7 @@ export default function Skills() {
       title: "Backend",
       icon: <FaServer />,
       skills: [
+        { name: "Python", icon: <SiPython /> },
         { name: "Java", icon: <FaCode /> },
         { name: "Spring Boot", icon: <FaServer /> },
         { name: "Hibernate", icon: <FaServer /> },

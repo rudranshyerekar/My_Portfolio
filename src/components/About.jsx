@@ -12,9 +12,9 @@ export default function About() {
 
           <div className="about-text">
             <p data-aos="fade-up" data-aos-delay="200">
-              I'm a Java Full-Stack Developer with hands-on experience building scalable web
-              applications using Java, Spring Boot, React, SQL, and MongoDB. Currently working
-              at RBrickks Technology in Pune, I handle full-stack development from responsive
+              I'm a Full Stack Developer with hands-on experience building scalable web
+              applications using Python, Java, Spring Boot, React, SQL, and MongoDB. Previously worked
+              at RBrickks Technology in Pune until April 2026, where I handled full-stack development from responsive
               UIs to robust backend APIs.
             </p>
 
